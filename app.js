@@ -15,7 +15,7 @@ var photo = require('./routes/photo.js');
 // var cart = require('./routes/shoppingcart.js');
 
 var app = express();
-var server = app.listen(3306);
+var server = app.listen(3000);
 
 app.all("*", function(req, res, next) {
     //设置允许跨域的域名，*代表允许任意域名跨域
